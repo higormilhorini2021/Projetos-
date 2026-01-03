@@ -1,38 +1,44 @@
-# Controle de Estoque - Loja de Eletrônicos MUKIARA
+# Repositório de Projetos - Portfólio e Estudos
 
 ## Descrição
 
-Este é um sistema simples de controle de estoque desenvolvido em Python para uma loja de eletrônicos fictícia chamada MUKIARA. O programa permite gerenciar produtos no estoque, incluindo adicionar, atualizar, excluir e visualizar itens, além de calcular totais de quantidade e valor patrimonial.
+Este repositório serve como um espaço centralizado para organizar e armazenar projetos desenvolvidos durante a faculdade, estudos pessoais, experimentos de programação, e construções de portfólio. O objetivo é manter tudo em um local acessível, facilitando a revisão, compartilhamento e evolução dos trabalhos ao longo do tempo.
 
-O sistema utiliza um arquivo JSON (`estoque.json`) para persistir os dados, garantindo que as informações sejam salvas mesmo após o fechamento do programa.
+Aqui você encontrará uma variedade de projetos em diferentes linguagens e tecnologias, desde scripts simples até aplicações mais complexas. Cada projeto terá sua própria pasta com documentação específica, mas este README fornece uma visão geral e índice dos conteúdos.
 
-## Funcionalidades
+## Propósito
 
-- **Adicionar Produto**: Permite cadastrar um novo produto informando nome, preço e quantidade.
-- **Atualizar Produto**: Busca um produto pelo nome e permite alterar seu preço e quantidade.
-- **Excluir Produto**: Remove um produto do estoque pelo nome.
-- **Visualizar Estoque**: Exibe uma tabela com todos os produtos, incluindo subtotais por item e totais gerais de quantidade e valor.
-- **Salvar e Sair**: Salva os dados no arquivo JSON e encerra o programa.
+- **Centralização**: Reunir todos os projetos em um único repositório para facilitar a organização e o acesso.
+- **Aprendizado**: Documentar o progresso em estudos e faculdade, servindo como referência futura.
+- **Portfólio**: Exibir habilidades e experiências para oportunidades profissionais ou acadêmicas.
+- **Colaboração**: Permitir contribuições e feedbacks de outros desenvolvedores ou colegas.
 
-O programa inicia com um estoque padrão contendo 5 produtos: Teclado, Monitor, Mouse, Fone e TV 55".
+## Estrutura do Repositório
 
-## Requisitos
+O repositório está organizado em pastas por projeto ou categoria. Cada pasta contém:
 
-- Python 3.x instalado no sistema.
+- Código-fonte e arquivos relacionados.
+- README específico (se aplicável) com instruções e explicações.
+- Possíveis arquivos de configuração, testes ou dados de exemplo.
 
-## Como Executar
+### Projetos Atuais
 
-1. Certifique-se de que o Python está instalado.
-2. Navegue até a pasta do projeto: `cd Controle-de-Estoque`
-3. Execute o script: `python Trabalho/Estoque.py`
-4. Siga as instruções no menu interativo.
+1. **Controle de Estoque (Unifecaf-estoque/)**
+   - **Descrição**: Sistema simples de controle de estoque para uma loja de eletrônicos fictícia (MUKIARA), desenvolvido em Python.
+   - **Funcionalidades**: Adicionar, atualizar, excluir e visualizar produtos; cálculo de totais; persistência em JSON.
+   - **Como executar**: Navegue para `Unifecaf-estoque/` e execute `python Estoque.py`.
+   - **Tecnologias**: Python 3.x, JSON para armazenamento.
+   - **Status**: Concluído.
 
-## Estrutura do Código
+_(Adicione novos projetos aqui conforme forem criados, seguindo o formato acima.)_
 
-O código está organizado em funções principais:
+Para sugestões ou melhorias no repositório geral, abra uma issue.
 
-- `salvar_dados()`: Salva a lista de produtos no arquivo JSON.
-- `carregar_dados()`: Carrega os dados do JSON ou inicia com produtos padrão.
-- Loop principal com menu para interagir com o usuário.
+## Requisitos Gerais
 
-O programa usa cores ANSI para melhorar a visualização no terminal (negrito, vermelho, verde, azul, ciano).
+- **Git** para versionamento.
+- Outros requisitos específicos estarão nos READMEs de cada projeto.
+
+---
+
+_Este repositório é mantido para fins educacionais e de portfólio. Todos os projetos são de autoria própria, a menos que especificado._
